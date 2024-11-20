@@ -8,12 +8,8 @@ public class ElectricDreamsSampleTarget : TargetRules
 	public ElectricDreamsSampleTarget(TargetInfo Target) : base(Target)
 	{
 		Type = TargetType.Game;
-		DefaultBuildSettings = BuildSettingsVersion.V5;
-        IncludeOrderVersion = EngineIncludeOrderVersion.Latest;
-        CppStandard = CppStandardVersion.Cpp20;
-        bValidateFormatStrings = true;
+		DefaultBuildSettings = BuildSettingsVersion.V2;
 
-
-        ExtraModuleNames.AddRange( new string[] { "ElectricDreamsSample" } );
+		ExtraModuleNames.AddRange( new string[] { "ElectricDreamsSample" } );
 	}
 }
