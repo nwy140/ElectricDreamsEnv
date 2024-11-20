@@ -1,16 +1,13 @@
 {
 	"FileVersion": 3,
-	"EngineAssociation": "5.4",
+	"EngineAssociation": "5.5",
 	"Category": "Samples",
 	"Description": "",
 	"Modules": [
 		{
 			"Name": "ElectricDreamsSample",
 			"Type": "Runtime",
-			"LoadingPhase": "Default",
-			"AdditionalDependencies": [
-				"Engine"
-			]
+			"LoadingPhase": "Default"
 		}
 	],
 	"Plugins": [
@@ -160,15 +157,6 @@
 		{
 			"Name": "RazorPlugin",
 			"Enabled": false
-		},
-		{
-			"Name": "OpenImageDenoise",
-			"Enabled": false
-		},
-		{
-			"Name": "AsyncLoadingScreen",
-			"Enabled": true,
-			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/01f39767dc6b4290877f38365787cbf8"
 		}
 	],
 	"TargetPlatforms": [
